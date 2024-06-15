@@ -1,0 +1,45 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.header {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+}
+.content-info {
+  transition: all 0.3s linear;
+  background-color: #d2e1e5;
+}
+.content-info:hover {
+  transform: scale(1.03);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-bg {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.modal-dialog {
+  max-width: 1100px;
+}
+ 
+@media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+  .btn-contact {
+    display: inline-block;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}
